@@ -1,0 +1,37 @@
+name: leadershipos
+description: "LeadershipOS — an AI-powered leadership simulator (frontend)."
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ── State management (recommended) ──
+  flutter_riverpod: ^2.5.1
+
+  # ── Navigation ──
+  go_router: ^14.2.0
+
+  # ── Typography ──
+  google_fonts: ^6.2.1
+
+  # ── Charts (line + radar) ──
+  fl_chart: ^0.68.0
+
+  # ── Micro-animations / staggered reveals ──
+  flutter_animate: ^4.5.0
+
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
